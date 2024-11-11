@@ -7,9 +7,11 @@ export default {
 // ****************************
 
 function draw(boardEl) {
-	// TODO: draw the chessboard, 8 rows (divs)
-	// of 8 tiles (divs) each, inserting all DOM
-	// elements into `boardEl` div
+	origBoardEl = boardEl;
+
+	for (let i = 0; i <= 7; i++) {
+		// implement tomorrow
+	}
 }
 
 function highlight(tileEl) {
